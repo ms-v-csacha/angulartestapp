@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'AngularTestTempApp'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_538f9c43947c4f3e88a64b80ed0c7413 }}
-        package: ./dist/angulartestapp
+        package: /home/runner/work/angulartestapp/angulartestapp
